@@ -1,0 +1,122 @@
+html {
+  height: 100%;
+  width: 100vw;
+}
+
+body {
+  font-family: "Jersey 25", sans-serif;
+  background-color: #081710;
+  margin: 0px;
+}
+
+.lemon-grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+
+.lemon-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.lemon-item img {
+  border-radius: 50%;
+}
+
+.divvy,
+.welcm,
+.ad {
+  margin-top: 10px;
+}
+
+.main {
+  padding: 10px;
+  background-image: url(code.jpeg);
+  background-color: #275918;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.divvy {
+  background-color: #e3ae3d;
+  color: #081710;
+  opacity: 0%;
+  transform: scale(0);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: inherit;
+}
+
+.text-left p {
+  text-align: left;
+  font-weight: 260;
+  font-size: 2em;
+}
+
+.announce {
+  font-size: 3em;
+  text-align: center;
+  color: #030303;
+}
+
+.welcm {
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #3d6b4f;
+  color: #fff;
+  opacity: 0;
+  animation: fade-in 2s ease-in-out, slide-down 2s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.lemon {
+  text-align: center;
+  color: #f6ffc2;
+  text-shadow: 0 0 10px rgba(255, 255, 0, 1);
+}
+
+.ad {
+  background-color: #335942;
+  border-radius: 10px;
+  padding: 10px;
+  color: #4CAF50;
+  animation: slide-right 2s ease-in-out;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #91dba1;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #4CAF50;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.glow {
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+.text-glow {
+  animation: glow-text 2s ease-in-out infinite alternate;
+}
