@@ -7,6 +7,7 @@
   <link rel="icon" href="icon.svg" type="image/svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
   <title>Anim JS</title>
   <script src="anim.js"></script>
@@ -43,13 +44,39 @@
           </div>
         </div>
       </div>
-      <div class="divvy" id="divvy">
+      <div class="divvy">
+        <h1>AnimJS - What's inside?</h1>
+        <h2>Animations</h2>
+        <h3>Spin in</h3>
+        <h3>Spin out</h3>
+        <h3>Spin right</h3>
+        <h3>Spin left</h3>
+        <h3>Slide right</h3>
+        <div id="rest" hidden>
+          <h3>Slide left</h3>
+          <h3>Slide up</h3>
+          <h3>Slide down</h3>
+          <h3>Grow</h3>
+          <h3>Shrink</h3>
+          <h3>Fade in</h3>
+          <h3>Fade out</h3>
+          <h3>Glow</h3>
+          <h3>Text-glow</h3>
+          <h3>Type text</h3>
+        </div>
+        <div onclick="show('rest'); this.hidden = true" class="g">
+          <h4>And many more!</h4>
+        </div>
+      </div>
+      <div class="divvy gone" id="divvy">
         <h1 class="announce text-glow">
           AnimJS - Used by world class developers
         </h1>
-        <h1 id="get-now-text"></h1>
+        <h1 id="get-now-text">
+          Get AnimJS
+        </h1>
         <button class="btn">
-          Get it!
+          Get it now
         </button>
       </div>
     </center>

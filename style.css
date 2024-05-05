@@ -45,15 +45,26 @@ body {
 .divvy {
   background-color: #e3ae3d;
   color: #081710;
-  opacity: 0%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.gone {
+  opacity: 0;
   transform: scale(0);
+}
+
+.g {
+  background-color: gray;
+  color: white;
   padding: 10px;
   border-radius: 10px;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: inherit;
 }
 
@@ -101,8 +112,15 @@ footer {
   font-size: 1rem;
 }
 
+.j,
+h1 {
+  font-family: "Jaro", sans-serif;
+  font-weight: 255;
+}
+
 .btn {
   background-color: #4CAF50;
+  font-family: "Jaro", sans-serif;
   border: 1px solid black;
   border-radius: 10px;
   color: white;
