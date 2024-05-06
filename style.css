@@ -9,6 +9,21 @@ body {
   margin: 0px;
 }
 
+.header {
+  background-color: #00170c;
+  width: 100%;
+  color: #66b383;
+  padding: 10px;
+  margin: 0px;
+}
+
+.logo-img {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+
 .lemon-grid {
   display: grid;
   grid-gap: 10px;
