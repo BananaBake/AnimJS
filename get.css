@@ -16,6 +16,12 @@ body {
   margin: 0px;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo-img {
   height: 50px;
   width: 50px;
@@ -121,6 +127,54 @@ h1 {
   font-size: 16px;
   margin: 4px 2px;
 }
+
+/*Search box styling*/
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#search-input {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: #e3ae3d;
+  color: #081710;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#search-btn {
+  background-color: #4CAF50;
+  font-family: "Jaro", sans-serif;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  margin: 4px 2px;
+  padding: 10px;
+}
+
+#search-btn:hover {
+  background-color: #76cf98;
+}
+
+/*tables*/
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+/*Animations*/
 
 .glow {
   animation: glow 3s ease-in-out infinite alternate;
