@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  width: 100vw;
+}
+
+body {
+  font-family: "Jersey 25", sans-serif;
+  margin: 0px;
+}
+
+.header {
+  background-color: #00170c;
+  width: 100%;
+  color: #66b383;
+  padding: 10px;
+  margin: 0px;
+}
+
+.logo-img {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+
+.tt,
+.get {
+  margin-top: 10px;
+}
+
+.main {
+  padding: 10px;
+}
+
+body {
+  background-image: url(code.jpeg);
+  background-color: #275918;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.divvy {
+  background-color: #e3ae3d;
+  color: #081710;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.gone {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.g {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: inherit;
+}
+
+.text-left p {
+  text-align: left;
+  font-weight: 260;
+  font-size: 2em;
+}
+
+.announce {
+  font-size: 3em;
+  text-align: center;
+  color: #030303;
+}
+
+.get {
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #3d6b4f;
+  color: #fff;
+}
+
+.ad {
+  background-color: #335942;
+  border-radius: 10px;
+  padding: 10px;
+  color: #4CAF50;
+  animation: slide-right 2s ease-in-out;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #91dba1;
+  font-size: 1rem;
+}
+
+.j,
+h1 {
+  font-family: "Jaro", sans-serif;
+  font-weight: 255;
+}
+
+.btn {
+  background-color: #4CAF50;
+  font-family: "Jaro", sans-serif;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.glow {
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+.text-glow {
+  animation: glow-text 2s ease-in-out infinite alternate;
+}

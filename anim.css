@@ -148,3 +148,13 @@
       text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     }
   }
+
+  @keyframes wobble-text {
+    0% {
+      font-style: initial;
+    }
+
+    100% {
+      font-style: italic;
+    }
+  }

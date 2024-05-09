@@ -13,3 +13,4 @@
 <h3>Glow</h3>
 <h3>Text-glow</h3>
 <h3>Type text</h3>
+<h3>Wobble text</h3>
