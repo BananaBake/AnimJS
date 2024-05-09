@@ -153,3 +153,7 @@ h1 {
 .text-glow {
   animation: glow-text 2s ease-in-out infinite alternate;
 }
+
+.strikethru {
+  text-decoration: line-through;
+}
