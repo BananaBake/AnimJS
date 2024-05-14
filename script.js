@@ -14,3 +14,4 @@ function show(id) {
 function hide(id) {
   document.getElementById(id).hidden = true;
 }
+

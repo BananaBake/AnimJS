@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
   <script src="anim.js"></script>
   <link href="get.css" rel="stylesheet" type="text/css" />
+  <link href="pkg.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -28,19 +29,15 @@
         <h3>Choose your package</h3>
         <span class="search-box">
           <input type="text" id="search-input" placeholder="Search packages...">
-          <button id="search-btn">Search</button>
+          <button id="search-btn" onclick="searchAndDisplay(packages, document.getElementById('search-input').value);">Search</button>
         </span>
       </center>
-      <table>
-        <tr>
-          <td>
-            <div class="divvy">
-              <h1>Full</h1>
-          </td>
-        </tr>
-      </table>
+      <div id="pkgs">
+      </div>
     </div>
   </div>
+    <script src="packages.js"></script>
+    <script src="displayPackage.js"></script>
 </body>
 
 </html>
